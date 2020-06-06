@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eagle Hotel</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <script type = "text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div class="logo">
+          <a href="index.html"><img src="image/logo.png"></a>
+        </div>
+        <div class="header-links">
+        <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+         <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+          <div class="nav-top" id="notlogin">
+            <a href="registration-login.html" class="btn">Register / Login</a>
+          </div>
+          
+          <div class="nav-top" id="login">
+              <a class="btn-user">Welcome<br> <span id="result1"></span></a> <a href="mypage.html" class="btn" >My Page</a>
+          </div>
+      </nav>
+        </div>
+        <div class="clearfix"></div>
+      </header>
+      
+      
+      <section>
+        <div class="slider-image">
+         <h2 class="title">REPOSE IN A WORLD<br>
+OF LUXURY AND COMFORT.</h2>
+        </div>
+      </section>
+      <section>
+        <div class="main-content">
+          <div class="col-content">
+            <h2 class="title">The Eagle Fly</h2>
+            <p>Welcome to Eagle Fly. Eagle Fly the most happening place in Ontario, Canada with its prime location, luxurious accommodation, and elegant finishing touches. We provide Spacious hotel rooms offer indulgent bedding, marble bathrooms with deep tubs, Wi-Fi, and floor-to-ceiling windows bathing every room in natural light.</p>
+            <P>Upgrade to an Executive Club-level room or Suite for exclusive amenities like hot buffet breakfasts and afternoon tea.Take advantage of our catering and expert planning services to ensure an occasion to remember.</p>
+            <br>
+            <a href="about-us.html" class="btn">Read More</a>
+          </div>
+          <div class="col-image desktop-view">
+            <img src="image/home_about.jpg">
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </section>
+      <section class="service-section">
+        <div class="main-content">
+          <div class="main-row">
+            <h2 class="title">Our Services</h2> <a href="rooms.html" class="btn">Book Now</a>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="services">
+            <div class="service-image">
+            <a href="rooms.html"><img src="image/room.jpg"></a>
+            <a href="rooms.html"><p>Delux Rooms</p></a>
+          </div>
+          <div class="service-image">
+            <a href="fitness-center.html"><img src="image/fitness-center1.jpg"></a>
+            <a href="fitness-center.html"><p>Fitness Center</p></a>
+          </div>
+          <div class="service-image" style="margin-right: 0px;">
+            <a href="dining.html"><img src="image/dining.jpg"></a>
+            <a href="dining.html"><p>Dining</p></a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      </section>
+      <section class="gallery-section desktop-view">
+        <div class="main-content">
+            <h2 class="title">Our Gallery</h2>
+          <div class="gallery">
+          <div class="gallery-image">
+            <img src="image/gallery1.jpg">
+          </div>
+          <div class="gallery-image">
+            <img src="image/gallery2.jpg">
+          </div>
+          <div class="gallery-image">
+            <img src="image/gallery3.jpg">
+          </div>
+          <div class="gallery-image" style="margin-right: 0px;">
+            <img src="image/dining.jpg">
+          </div>
+          <div class="gallery-image">
+            <img src="image/gallery4.jpg">
+          </div>
+          <div class="gallery-image">
+            <img src="image/gallery5.jpg">
+          </div>
+          <div class="gallery-image">
+            <img src="image/business_services1.jpg">
+          </div>
+          <div class="gallery-image" style="margin-right: 0px;">
+            <img src="image/business_services.jpg">
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      </section>
+      <section class="contact-section">
+        <div class="main-content">
+          <div class="col-contact">
+            <h2 class="title">Get In Touch</h2>
+            <p>Eagle Fly is a new exciting venue in Canada. We aspire to be the place of choice to socialise and dine and stay. We also offer banqueting for parties and functions.</p>
+            <p><i class="fa fa-clock-o" aria-hidden="true"></i><span>&nbsp;&nbsp;9 AM to 10 PM</span></p>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp;&nbsp;&nbsp;&nbsp;Tinsmith, Brampton, Ontario, Canada</span></p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i><span>&nbsp;&nbsp; <a href="tel:+1437-755-4082">+1437-755-4082</a></span></p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i><span>&nbsp;&nbsp; <a href="mailto:manpreetjohal513@gmail.com">manpreetjohal513@gmail.com </a></span></p>
+          </div>
+          <div class="col-form">
+            <h1>Contact Us</h1>
+            <form method="post" action="#" onSubmit="addcontactdata()">
+              <label for="name">Name <font color="#fff">*</font></label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email <font color="#fff">*</font></label>
+              <input type="email" id="email" name="email" required>
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject">
+              <label>Message <font color="#fff">*</font></label>
+               <textarea required id="message"></textarea>
+               <input type="submit" value="Submit" > 
+            </form>
+          </div>
+      </div>
+        <div class="clearfix"></div>
+      </section>
+      <footer>
+        <div class="footer-left">
+          <p>
+            &copy; Copyright 2020. All Rights reserved. 
+            <a href="mailto:manpreetjohal513@gmail.com">manpreetjohal513@gmail.com </a>
+          </p>
+        </div>
+        <div class="footer-right">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/explore" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <div class="clearfix"></div>
+      </footer>
+       
+    </div>
+  </body>
+</html>
